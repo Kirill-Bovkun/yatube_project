@@ -3,9 +3,11 @@
   <head>    
     {% extends 'base.html' %}
     <title>
-      {% block title %}
-      Лев Толстой – зеркало русской революции.
-      {% endblock %}
+      <title>
+        {% block title %}
+        {{ title }}
+        {% endblock %}
+      </title>
   </head>
   <body>
     <header>
